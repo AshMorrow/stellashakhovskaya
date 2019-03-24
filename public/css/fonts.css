@@ -1,0 +1,54 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: CenturyGothic;
+    src: url(../fonts/CenturyGothic.ttf);
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url(../fonts/Merriweather-LightItalic.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Merriweather;
+    src: url(../fonts/Merriweather-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('../fonts/gilroy/Gilroy-Light.eot?#iefix') format('embedded-opentype'),  url('../fonts/gilroy/Gilroy-Light.otf')  format('opentype'),
+    url('../fonts/gilroy/Gilroy-Light.woff') format('woff'), url('../fonts/gilroy/Gilroy-Light.ttf')  format('truetype'), url('../fonts/gilroy/Gilroy-Light.svg#../fonts/gilroy/Gilroy-Light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon/icomoon.eot?vjixj5');
+    src:  url('../fonts/icomoon/icomoon.eot?vjixj5#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/icomoon.ttf?vjixj5') format('truetype'),
+    url('../fonts/icomoon/icomoon.woff?vjixj5') format('woff'),
+    url('../fonts/icomoon/icomoon.svg?vjixj5#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../fonts/fontello/fontello.eot?44448182');
+    src: url('../fonts/fontello/fontello.eot?44448182#iefix') format('embedded-opentype'),
+    url('../fonts/fontello/fontello.woff2?44448182') format('woff2'),
+    url('../fonts/fontello/fontello.woff?44448182') format('woff'),
+    url('../fonts/fontello/fontello.ttf?44448182') format('truetype'),
+    url('../fonts/fontello/fontello.svg?44448182#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

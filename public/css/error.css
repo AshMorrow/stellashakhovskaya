@@ -1,0 +1,7 @@
+/*** massage ***/
+
+.msg_error{
+    border: 1px solid !important;
+    border-color: #FF6699 !important;
+    box-shadow:  0 0 10px -3px;
+}

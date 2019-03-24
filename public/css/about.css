@@ -1,0 +1,118 @@
+.ab_head_label{
+    font-family: Gilroy-Light;
+    text-align: center;
+    margin: 30px 0 0 0;
+    font-size: 23px;
+}
+.ab_history{
+    margin-bottom: 20px;
+}
+
+.ab_history_head{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.ab_history_head .left {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.ab_history_head .left img{
+    max-width: 100%;
+}
+.ab_history_head .left span{
+    color: #666;
+    padding: 10px 0;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 14px;
+}
+.ab_history_head .right{
+    margin: 0px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 700px;
+    width: 100%;
+}
+.ab_history_head .right p{
+    font-family: Roboto;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+
+.ab_history_line .right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ab_history_line .year{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Merriweather;
+    margin: 0px 13px;
+}
+
+.ab_history_line .year .y_line{
+    background-color: #b2b1ac;
+    width: 1px;
+    flex-grow: 1;
+}
+
+.ab_history_line .year .y_text{
+    font-size: 14px;
+    margin: 5px 0px;
+}
+.ab_history_line .h_line_text{
+    padding: 0px 10px;
+}
+.ab_history_line .right .h_line_text{
+    max-width: 550px;
+    min-height: 90px;
+    align-items: center;
+    font-family: Merriweather;
+    display: flex;
+    font-size: 15px;
+    line-height: 1.32rem;
+    width: 100%;
+}
+ /*** left history line ***/
+
+.ab_history_line .left{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ab_history_line .left .h_line_text{
+    max-width: 550px;
+    min-height: 90px;
+    align-items: center;
+    font-family: Merriweather;
+    display: flex;
+    font-size: 15px;
+    line-height: 1.32rem;
+}
+
+.ab_line{
+    margin: 40px 0;
+}
+
+.ab_bottom{
+    text-align: center;
+}
+.ab_bottom img{
+    max-width: 900px;
+    width: 100%;
+}
+
+.ab_bottom h2{
+    font-family: Merriweather;
+    text-align: center;
+    margin: 0px 0 40px 0;
+    font-size: 22px;
+}
