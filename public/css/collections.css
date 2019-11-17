@@ -1,0 +1,168 @@
+.collections_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.collection_tile {
+    position: relative;
+    display: flex;
+    margin: 0px 15px;
+    box-shadow: 0 1px 10px -3px;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    min-width: 247px;
+    margin-bottom: 15px;
+    max-width: 266px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.collection_tile:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 10px -1px;
+    transition: all 0.8s;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+}
+
+.collection_tile img {
+    width: 100%;
+    height: 100%;
+}
+
+.collection_tile_label {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-family: "Gilroy-Light";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: #333;
+}
+
+.empty_collection_tile {
+    position: relative;
+    display: flex;
+    margin: 0px 15px;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    min-width: 247px;
+    margin-bottom: 15px;
+    max-width: 266px;
+    width: 100%;
+}
+
+/** delete from favorite **/
+.delete_from_favorite,
+.to_favorite {
+    position: absolute;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: "Gilroy-Light";
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 0px 9px;
+    color: #706f6c;
+}
+
+.delete_from_favorite:hover,
+.to_favorite:hover {
+    color: #333;
+    transition: all 0.3s;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-color: #fff;
+}
+
+.delete_from_favorite:active,
+.to_favorite:active {
+    border-top: 1px solid #fff;
+}
+
+.delete_from_favorite span:first-child,
+.to_favorite span:first-child{
+    flex-grow: 1;
+}
+
+.delete_from_favorite span,
+.to_favorite span{
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.icon_close,
+.delete_from_favorite .icon{
+    font-family: fontello;
+    width: auto;
+    margin-right: 5px;
+}
+
+/** toggle favorite **/
+.to_favorite.add_favorite{
+    top: -40px;
+}
+.to_favorite.add_favorite .icon {
+    font-family: icomoon;
+    width: auto;
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.to_favorite.delete_from_favorite .icon {
+    font-family: fontello;
+}
+
+.collection_tile:hover .to_favorite.add_favorite{
+    top: 0;
+    transition: all 0.5s;
+}
+.collection_tile .to_favorite.add_favorite:hover .icon {
+    color: #CC0000;
+}
+/** pagination **/
+.pagination {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.pagination div {
+    flex-grow: 1;
+    height: 1px;
+    margin: 0 20px;
+    background-color: #b2b1ac;
+}
+
+.pagination nav a,
+.pagination nav span {
+    font-family: CenturyGothic;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0px 3px;
+}
+
+.pagination nav a {
+    color: #333;
+}
+
+.pagination nav a:hover,
+.pagination nav span {
+    color: #c1a03e;
+}
+
+.pagination nav .pg_arrow {
+    font-family: fontello;
+    font-size: 17px;
+}
+
+.pagination nav .pg_arrow.disabled {
+    color: #deddda;
+}

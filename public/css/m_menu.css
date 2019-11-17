@@ -1,0 +1,99 @@
+#m_menu_event_container{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#m_menu_container {
+    width: 300px;
+    height: calc(100% - 45px);
+    position: fixed;
+    background: #fff;
+    top: 45px;
+    box-shadow: 0px 0px 10px -3px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+
+}
+
+#m_menu_logo{
+    padding: 10px;
+    background: linear-gradient(to right,transparent,#a5a5a5,transparent);
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position-y: bottom;
+}
+
+#m_menu_logo img{
+    max-width: 100%;
+}
+
+#m_menu_inner{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+#m_menu_inner a{
+    text-decoration: none;
+    font-family: "Gilroy-Light";
+    color: #333;
+    padding: 0px 20px;
+    display: flex;
+    align-content: center;
+    height: 45px;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+#m_menu_inner a.active,
+#m_menu_inner a:hover{
+    color: #fff;
+    background-color: #c1a03e;
+    box-shadow: 0px 4px 10px -5px #333;
+    cursor: pointer;
+}
+
+#m_menu_favorite{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding-top: 15px;
+    background: linear-gradient(to right,transparent,#a5a5a5,transparent);
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position-y: top;
+    width: 100%;
+    max-width: 100%;
+    font-size: 35px;
+    flex-shrink: 0;
+}
+
+#m_menu_social{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding-top: 15px;
+
+    background: linear-gradient(to right,transparent,#a5a5a5,transparent);
+    background-repeat: no-repeat;
+    background-size: 100% 1px;
+    background-position-y: top;
+}
+#m_menu_social a{
+    text-shadow: -1px 0 #666, 0 1px #666, 1px 0 #666, 0 -1px #666;
+    color: #fff;
+    font-family: icomoon;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    padding: 0 10px;
+}
+
+#m_menu_social a:hover{
+    text-shadow: -1px 0 #c1a03e, 0 1px #c1a03e, 1px 0 #c1a03e, 0 -1px #c1a03e;
+}
