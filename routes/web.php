@@ -43,6 +43,8 @@ Route::get('/collections/{name}', 'CollectionMain@show');
 Route::get('/collections/{name}/{coll_name}', 'CollectionMain@showCollection');
 Route::get('/collections/{name}/{coll_name}/{dress}', 'CollectionMain@showDress');
 
+//Route::get('/create', 'CreateController@processed');
+
 
 //Auth::routes();
 //
